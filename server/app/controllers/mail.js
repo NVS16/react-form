@@ -19,7 +19,7 @@ var sendMail = function (req, res) {
 
     var mail = {  // to be set with appropriate req.body attributes
         from:  req.body.name + ' <nvsa16@gmail.com>',
-        to: 'nvsabhishek.india@gmail.com',  // should be set to req.body.to
+        to: 'eduhiservices@gmail.com',  // should be set to req.body.to
         subject: "Contact Us Form Response" ,
         html: "<p>" + req.body.message + "</p><br><br>Name: " + req.body.name + "<br><p>All correspondences should be replied to the sender email - <b>" + req.body.email + "</b></p>"
     }
