@@ -1,3 +1,10 @@
+#### Installing dependencies
+    Go into /server
+    npm install #installs all the server dependencies
+
+    Go into /client
+    npm install #installs all the client depenndencies
+
 #### Starting the server
     Go into /server
     npm start #start the server
